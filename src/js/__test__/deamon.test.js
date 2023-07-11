@@ -1,13 +1,13 @@
-import Daemon from '../deamon';
+import Deamon from '../deamon';
 
 test('Must correctly create Daemon character object', () => {
   const expected = {
     name: 'Test',
-    type: 'Daemon',
+    type: 'Deamon',
     health: 100,
     level: 1,
     attack: 10,
     defens: 40,
   };
-  expect(new Daemon('Test', 'Daemon')).toEqual(expected);
+  expect(new Deamon('Test', 'Deamon')).toEqual(expected);
 });
