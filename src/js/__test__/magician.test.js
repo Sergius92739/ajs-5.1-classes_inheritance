@@ -9,5 +9,5 @@ test('Must correctly create Magician character object', () => {
     attack: 10,
     defens: 40,
   };
-  expect(new Magician('Test', 'Magician')).toEqual(expected);
+  expect(new Magician('Test')).toEqual(expected);
 });

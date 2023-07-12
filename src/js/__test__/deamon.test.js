@@ -9,5 +9,5 @@ test('Must correctly create Daemon character object', () => {
     attack: 10,
     defens: 40,
   };
-  expect(new Deamon('Test', 'Deamon')).toEqual(expected);
+  expect(new Deamon('Test')).toEqual(expected);
 });

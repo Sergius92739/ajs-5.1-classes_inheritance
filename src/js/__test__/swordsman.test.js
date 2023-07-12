@@ -9,5 +9,5 @@ test('Must correctly create Swordsman character object', () => {
     attack: 40,
     defens: 10,
   };
-  expect(new Swordsman('Test', 'Swordsman')).toEqual(expected);
+  expect(new Swordsman('Test')).toEqual(expected);
 });

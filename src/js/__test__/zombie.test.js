@@ -9,5 +9,5 @@ test('Must correctly create Zombie character object', () => {
     attack: 40,
     defens: 10,
   };
-  expect(new Zombie('Test', 'Zombie')).toEqual(expected);
+  expect(new Zombie('Test')).toEqual(expected);
 });

@@ -9,5 +9,5 @@ test('Must correctly create Undead character object', () => {
     attack: 25,
     defens: 25,
   };
-  expect(new Undead('Test', 'Undead')).toEqual(expected);
+  expect(new Undead('Test')).toEqual(expected);
 });
